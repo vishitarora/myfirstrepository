@@ -24,6 +24,7 @@ Now checking the structure of mpg dataset
 
 ```{r}
 head(iris)
+str(iris)
 
 ```
 
@@ -31,6 +32,6 @@ Load a package
 
 ```{r}
 library(ggplot2)
-#ggplot(iris, aes(Sepal.Length, Sepal.Width)) + geom_point()
+ggplot(iris, aes(Sepal.Length, Sepal.Width)) + geom_point()
 ```
 
